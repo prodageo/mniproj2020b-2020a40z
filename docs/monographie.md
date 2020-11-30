@@ -1,6 +1,6 @@
----
+
 consigne: http://prodageo.insa-rouen.fr/casimono/sujetprojmd/consignes.html
----
+
 # Monographie - Exploitation des journaux (logs) d’application
 
 ## Tableau de suivi des versions
@@ -164,6 +164,9 @@ Algolia fournit son service via diverses API. Il prend en charge plusieurs langa
 - Error tolerance
   * Number of memory related errors
   * Number of inacurrate computations encountered by users
+- Efficiency
+  * Ressources efficiency
+  * Time efficiency
 
 ### A7. Références théoriques
 
@@ -480,6 +483,29 @@ Le service supporte tout les systèmes Linux et Windows.
 
 ### B4. Liste de métriques
 
+- Error Tolerance 
+  
+  - Number of memory related errors: 
+    - Out of memory (RAM / Hard memory)
+      * Mesurer la mémoire utilisée à l'aide de fonction bash tel que df. 
+      * Faisabilité: faisable.
+    - Segmentation error 
+      * Recenser le nombre de crash de l'application liées au segmentation fault.
+      * Faisabilité: faisable.
+
+  - Number of inacurrate computations encountered by users:
+    * Donner la possibilité à l'utilisateur de signaler des données imprécises. Puis, tracer cette mesure.
+    * Faisabilité : difficilement faisable. Peu d'utilisateurs
+
+- Efficiency 
+  
+  - Ressources efficiency: 
+    * Nombre de total de lignes des logs. Mesurer le nombre de lignes obtenus par les fichiers logs. Par exemple à la fonction bash wc ( wc -l )
+    * Faisabilité de la solution: faisable.
+  
+  - Time efficiency: 
+    * Temps d'exécution d'une requête. Calcul du temps d'exécution d'une requête à l'aide d'indicateurs. 
+    * Faisabilité de la solution: faisable.
 - Task time :
   - Faisabilité de la procédure : faisable ;
   - Procédure de la mesure : on horodate la génération des logs issus d'un ensemble de requêtes (volume de 1000 requêtes par exemple) et l'affichage de l'analyse effectuée sur ces logs. On compare ensuite l'écart de temps entre chaque solution. La meilleur solution étant celle qui a le plus petit écart.  
