@@ -25,7 +25,7 @@ consigne: http://prodageo.insa-rouen.fr/casimono/sujetprojmd/consignes.html
    - E07 - Equipe C
      - Benkassou, Ali (khazit)
      - Leclerc, Tanguy (LeclercTanguy)
-     - Marie, Joran (Joran MARIE)
+     - Marie, Joran (iamodog)
    - E08 - Equipe D
      - De Laroque, Florent (FlorentDL)
      - Marie, Leo (lmarie01)
