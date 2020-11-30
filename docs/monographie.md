@@ -416,6 +416,8 @@ Apache Solr est intégré dans Lucene sous la forme d’un servlet. Le logiciell
 
 La configuration système requise pour Solr n’est pas très élevée. Tout ce dont il y a besoin c’est un Java SE Runtime Environment à partir de la version 1.8.0. Les développeurs ont testé le servlet sous Linux/Unix, macOS et Windows dans différentes versions. Il suffit de télécharger le paquet d’installation approprié et extraire le fichier.zip (paquet Windows) ou le fichier.tgz (paquet Unix, Linux et OSX).
 
+![solr](images/Exemple_recherche_Solr)
+
 
 ### B3. Solutions retenues
 
