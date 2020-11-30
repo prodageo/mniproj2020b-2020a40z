@@ -410,6 +410,12 @@ Top 20 des email envoyé
 
 Top 10 des Hosts
 
+#### Solr
+Solr (prononcé Solar) est un sous-projet open source basé sur la bibliothèque de recherche et d’indexation Lucene d’Apache. Solr est basé sur Lucene Core et est écrit en Java. En tant que serveur de recherche, Apache Solr est l’un des outils les plus populaires pour l’intégration de moteurs de recherche verticaux. Les avantages de Solr comprennent un large éventail de fonctions (y compris, par exemple, la classification à facettes des résultats de recherche) et l’indexation accélérée. Il fonctionne également sur des conteneurs serveurs tels qu’Apaches Tomcat.
+Apache Solr est intégré dans Lucene sous la forme d’un servlet. Le logicielle Lucene est une bibliothèque Java open source et gratuite utilisable indépendamment de la plateforme. Lucene est connue comme une bibliothèque NoSQL puissante et évolutive.
+
+La configuration système requise pour Solr n’est pas très élevée. Tout ce dont il y a besoin c’est un Java SE Runtime Environment à partir de la version 1.8.0. Les développeurs ont testé le servlet sous Linux/Unix, macOS et Windows dans différentes versions. Il suffit de télécharger le paquet d’installation approprié et extraire le fichier.zip (paquet Windows) ou le fichier.tgz (paquet Unix, Linux et OSX).
+
 
 ### B3. Solutions retenues
 
