@@ -477,6 +477,24 @@ Le service supporte tout les systèmes Linux et Windows.
 
 ### B4. Liste de métriques
 
+- Task time :
+  - Faisabilité de la procédure : faisable ;
+  - Procédure de la mesure : on horodate la génération des logs issus d'un ensemble de requêtes (volume de 1000 requêtes par exemple) et l'affichage de l'analyse effectuée sur ces logs. On compare ensuite l'écart de temps entre chaque solution. La meilleur solution étant celle qui a le plus petit écart.  
+
+
+- Task effectiveness :
+  - Faisabilité de la procédure : mesure complexe, car il est difficile de quantifier l'efficacité de l'analyse de logs. 
+
+- Number of failures:
+  - Faisabilité de la procédure : faisable ;
+  - Procédure de la mesure : on demande une analyse d'un grand nombre de logs (1000 par exemple) et on compare le nombre de logs bien analysés. On compare ensuite l'écart entre chaque solution, la meilleur solution étant celle qui a le plsu petit écart. 
+
+- Number of faults:
+  - Faisabilité de la procédure : faisable mais en partie inclus dans la mesure des failures
+
+
+
+
 ### B5. Découpage (WBS) pour réalisation des prototypes
 
 ## Partie C
