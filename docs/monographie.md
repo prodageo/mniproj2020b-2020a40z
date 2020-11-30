@@ -416,6 +416,16 @@ La configuration système requise pour Solr n’est pas très élevée. Tout ce 
 ![solr](images/Exemple_recherche_Solr)
 
 #### Loki
+Site: https://grafana.com/oss/loki/
+
+Loki est un système d'aggrégation de logs open-source, développé par Grafana Labs en 2018. Contrairement à la grande partie des systèmes semblables, Loki n'indexe pas le contenu des logs, mais pluôt une liste de labels associée à chaque flux de logs. Pour cette raison, il est facile à mettre en place et relativement léger à opérer.
+
+Le système en entier comporte 3 briques:
+  - Loki, l'aggrégateur de logs.
+  - Promtail, l'agent responsable d'envoyer les logs sur Loki
+  - Grafana, comme outil de visualisation. Très populaire, supporte nativement un grand nombres de sources de données différentes.
+
+![loki](images/loki_architecture.png)
 
 #### Graylog
 
@@ -464,6 +474,7 @@ Le service supporte tout les systèmes Linux et Windows.
 ||||
 ||||
 ||||
+
 ### B4. Liste de métriques
 
 ### B5. Découpage (WBS) pour réalisation des prototypes
