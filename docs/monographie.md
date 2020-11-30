@@ -471,12 +471,12 @@ Le service supporte tout les systèmes Linux et Windows.
 
 ### B3. Solutions retenues
 
-|Solution retenue|Équipe|Description technique|
-|------------------|------|----------------------|
-||||
-||||
-||||
-||||
+|Solution retenue|Équipe|
+|------------------|------|
+|||
+|||
+|Loki|E07 - Equipe C|
+|||
 
 ### B4. Liste de métriques
 
