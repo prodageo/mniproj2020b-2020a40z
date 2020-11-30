@@ -336,10 +336,6 @@ Les _dashboards_ offrent la possibilité de définir et changer la période d'ob
 
 ### B2. Solutions technologiques concurrentes
 
-- Webalizer : Julien
-- Awstats : Daphné
-- Apache Solr
-
 #### Webalizer
 
 Webalizer est un programme rapide et gratuit d'analyse des fichiers journaux des serveurs web. Il produit des rapports d'utilisation très détaillés et facilement configurables au format HTML, à consulter avec un navigateur web standard. Il est développé en C , ce qui lui permet d'être assez rapide et portable facilement. Il gère les journaux standard du serveur CLF (Common logfile format), plusieurs variantes du format NCSA Combined logfile, les journaux au format wu-ftpd/proftpd xferlog (FTP), le format natif du serveur proxy Squid et les formats de journaux étendus du W3C. En outre, les journaux compressés gzip (.gz) et bzip2 (.bz2) peuvent être utilisés directement sans qu'il soit nécessaire de les décompresser.
@@ -418,6 +414,8 @@ La configuration système requise pour Solr n’est pas très élevée. Tout ce 
 
 **Exemple de recherche Solr**
 ![solr](images/Exemple_recherche_Solr)
+
+#### Loki
 
 
 ### B3. Solutions retenues
