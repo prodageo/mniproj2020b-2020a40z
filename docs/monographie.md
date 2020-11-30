@@ -417,9 +417,53 @@ La configuration système requise pour Solr n’est pas très élevée. Tout ce 
 
 #### Loki
 
+#### Graylog
+
+Site : https://www.graylog.org/
+
+Graylog est une entreprise de logiciels de gestion de logs basée à Houston, au Texas. Graylog, anciennement Torch, a été fondée en 2009 par Lennart Koopmann et a débuté comme projet open-source à Hambourg, en Allemagne.
+
+Graylog est une solution open-source de gestion de logs. Graylog collecte, stocke et permet une recherche en temps réel et une analyse des journaux en grandes quantités (téraoctets de données) provenant de n'importe quel composant de l'infrastructure et ou application. Le logiciel utilise une architecture à trois tiers et un stockage évolutif basé sur Elasticsearch et MongoDB. Chaque message est enregistré dans une base de donnée Elasticsearch et une interface web permet de gérer et analyser les logs.
+
+La configuration requise pour Graylog n'est pas élevée : il faut installer ElasticSearch 6.8 ou 7, MongoDB 3.6, 4.0 ou 4.2 et Java SE 8.
+
+![graylog](images/exemple_graylog.png) 
+#### Splunk
+
+Site :
+https://www.splunk.com/fr_fr
+
+Présentation :
+Splunk est une multinationale américaine, basée à San Francisco, qui produit des logiciels de recherche, suivi et d'analyse de données machines (données de big data générées automatiquement par des machines) via une interface de style web2. 
+
+
+Splunk (le produit) collecte, indexe et met en corrélation des données en temps réel dans des archives recherchables, permettant de générer des graphiques, des rapports, des alertes, des tableaux de bord et des infographies3,4.
+La mission de Splunk est de rendre les données générées par des machines compréhensibles de tous dans une même entreprise, en identifiant des tendances de données5, en donnant des outils de mesure, en diagnostiquant les éventuels problèmes et en fournissant des informations relatives à l'activité commerciale de l'entreprise. Splunk est une technologie horizontale utilisée pour l'ALM, la sécurité des données et la conformité, ainsi que pour l'analyse commerciale et web2. Début 2016, Splunk enregistre 10 000 clients à travers le monde6.
+
+Pré-requis :
+Splunk est un service cloud qui ne requiert aucune installations préalables. Ce service est déployé et géré en tant que service cloud.
+
+![splunk](images/exemple_splunk.png) 
+
+#### Loggly
+
+olarWinds Loggly est un fournisseur de services de gestion et d'analyses des logs. Loggly permet de rassembler les logs de l'ensemble d'une infrastructure en un seul endroit pour pouvoir suivre l'activité et analyser les tendances.
+Loggly permet d'analyser des logs issus de langage Java, Python, Javascript, Ruby ou encore de systèmes Linux et Android.
+
+Le service ne nécessite pas de dépendances, il est hébergé à distance. On a juste a envoyer nos logs sous forme de fichiers JSON, rsyslog ou scripts AWS à Loggly qui se chargera de les analyser. Loggly fournit toutes sortes de scripts et de turoriels pour extraire ces fichiers depuis vos projets.
+
+Le service supporte tout les systèmes Linux et Windows.
+
+![loggly](images/exemple_loggly.png) 
 
 ### B3. Solutions retenues
 
+|Solution retenue|Équipe|Description technique|
+|------------------|------|----------------------|
+||||
+||||
+||||
+||||
 ### B4. Liste de métriques
 
 ### B5. Découpage (WBS) pour réalisation des prototypes
