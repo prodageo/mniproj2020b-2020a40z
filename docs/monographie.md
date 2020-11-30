@@ -463,7 +463,7 @@ Le service supporte tout les systèmes Linux et Windows.
 
 ### B3. Solutions retenues
 
-|Solutions retenues|Équipe|Description technique|
+|Solution retenue|Équipe|Description technique|
 |------------------|------|----------------------|
 ||||
 ||||
