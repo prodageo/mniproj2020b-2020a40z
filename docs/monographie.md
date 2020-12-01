@@ -483,8 +483,8 @@ Le service supporte tout les systèmes Linux et Windows.
 
 |Solution retenue|Équipe|
 |------------------|------|
-|||
-|ELK - Kibana (natif)|E16 - Equipe B|
+|Webalizer|E04 - Equipe B|
+|ELK - Kibana (natif)|E16 - CASIment l'UML|
 |Loki|E07 - Equipe C|
 |Solr|E08 - Équipe D|
 
