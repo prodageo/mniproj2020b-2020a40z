@@ -83,11 +83,15 @@ Un fichier RRD est  fichier servant de base de données, notamment de données r
 - **DevOps** : Mouvement en ingénierie informatique et une pratique technique visant à l'unification du développement logiciel (dev) et de l'administration des infrastructures informatiques (ops), notamment l'administration système. (Source Wikipedia)
 
 ### A2. Webographie
-- [Wikipédia](https://en.wikipedia.org/wiki/Big_data)
-- [Simplilearn](https://www.simplilearn.com/what-is-big-data-analytics-article)
-- [Datamation](https://www.datamation.com/big-data/big-data-analytics.html)
-- [Sodifrance (Gatling)](https://blog.sodifrance.fr/procedure-de-tests-de-montee-en-charge-avec-gatling-2/)
-- [ElasticSearch](https://www.elastic.co/fr/elasticsearch/)
+
+| Sites | Dates de dernière consultation |
+|-------|------------------------------- |
+|[Wikipédia](https://en.wikipedia.org/wiki/Big_data)| 13/11/2020|
+|[Simplilearn](https://www.simplilearn.com/what-is-big-data-analytics-article)| 14/11/2020|
+|[Datamation](https://www.datamation.com/big-data/big-data-analytics.html)|14/11/2020|
+|[Sodifrance (Gatling)](https://blog.sodifrance.fr/procedure-de-tests-de-montee-en-charge-avec-gatling-2/)|14/11/2020|
+|[ElasticSearch](https://www.elastic.co/fr/elasticsearch/)|24/11/2020|
+
 
 ### A3. Bibliographie
 
