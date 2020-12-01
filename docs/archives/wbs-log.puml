@@ -1,0 +1,14 @@
+@startwbs
+* Work Breakdown Structure (Projet Logs)
+** Planning
+*** Planification du projet
+*** Recherches des solutions
+*** Choix des technologies
+** Réalisation
+*** Collecte, filtrage et normalisation des logs
+*** Stockage et indexation des logs
+*** Visualisation et analyse des logs
+** Evaluation
+*** Mise en place des métriques
+*** Tests (unitaires, intégration, charge)
+@endwbs

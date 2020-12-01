@@ -533,6 +533,8 @@ Le service supporte tout les systèmes Linux et Windows.
 
 ### B5. Découpage (WBS) pour réalisation des prototypes
 
+![WBS](images/wbs-log.png)
+
 ## Partie C
 
 ### C1. Architecture solution W
