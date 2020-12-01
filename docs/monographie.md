@@ -63,9 +63,12 @@ Apache Solr constitue avec ELK les 2 principaux moteurs de recherche open source
 
 #### A quoi sert rsyslogd ? Qu’est-ce qu’un fichier RRD ?
 
+Rsyslogd est un démon qui collecte les messages de service provenant des applications et du noyau puis qui les répartit dans des fichiers de logs.
+Un fichier RRD est  fichier servant de base de données, notamment de données raster (données cycliques, chronologiques, graphiques...).
+
 #### Quelle est la différence entre une base de données et un moteur d’indexation ?
 
-
+ La base de données permet de stocker des données et le moteur d'indexation permet d'y accéder plus rapidement.
 
 ### A1. Glossaire et Mots-clés.
 - **Big Data** : Domaine technologique dédié à l’analyse de très grands volumes de données informatiques (petaoctets), issus d'une grande variété de sources, tels les moteurs de recherche et les réseaux sociaux ; ces grands volumes de données. (Source Larousse)
@@ -479,7 +482,7 @@ Le service supporte tout les systèmes Linux et Windows.
 |||
 |ELK - Kibana (natif)|E16 - Equipe B|
 |Loki|E07 - Equipe C|
-|||
+|Solr|E08 - Équipe D|
 
 ### B4. Liste de métriques
 
