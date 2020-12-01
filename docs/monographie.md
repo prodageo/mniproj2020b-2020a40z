@@ -533,6 +533,8 @@ Le service supporte tout les systèmes Linux et Windows.
 
 ### B5. Découpage (WBS) pour réalisation des prototypes
 
+Le WBS permet de découper le projet en tâches afin de montrer comment réaliser les prototypes.
+
 ![WBS](images/wbs-log.png)
 
 ## Partie C
