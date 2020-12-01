@@ -443,14 +443,14 @@ Graylog est une solution open-source de gestion de logs. Graylog collecte, stock
 
 La configuration requise pour Graylog n'est pas élevée : il faut installer ElasticSearch 6.8 ou 7, MongoDB 3.6, 4.0 ou 4.2 et Java SE 8.
 
-![graylog](images/exemple_graylog.png) 
+![graylog](images/exemple_graylog.png)
 #### Splunk
 
 Site :
 https://www.splunk.com/fr_fr
 
 Présentation :
-Splunk est une multinationale américaine, basée à San Francisco, qui produit des logiciels de recherche, suivi et d'analyse de données machines (données de big data générées automatiquement par des machines) via une interface de style web2. 
+Splunk est une multinationale américaine, basée à San Francisco, qui produit des logiciels de recherche, suivi et d'analyse de données machines (données de big data générées automatiquement par des machines) via une interface de style web2.
 
 
 Splunk (le produit) collecte, indexe et met en corrélation des données en temps réel dans des archives recherchables, permettant de générer des graphiques, des rapports, des alertes, des tableaux de bord et des infographies3,4.
@@ -459,7 +459,7 @@ La mission de Splunk est de rendre les données générées par des machines com
 Pré-requis :
 Splunk est un service cloud qui ne requiert aucune installations préalables. Ce service est déployé et géré en tant que service cloud.
 
-![splunk](images/exemple_splunk.png) 
+![splunk](images/exemple_splunk.png)
 
 #### Loggly
 
@@ -470,26 +470,26 @@ Le service ne nécessite pas de dépendances, il est hébergé à distance. On a
 
 Le service supporte tout les systèmes Linux et Windows.
 
-![loggly](images/exemple_loggly.png) 
+![loggly](images/exemple_loggly.png)
 
 ### B3. Solutions retenues
 
 |Solution retenue|Équipe|
 |------------------|------|
 |||
-|||
+|ELK - Kibana (natif)|E16 - Equipe B|
 |Loki|E07 - Equipe C|
 |||
 
 ### B4. Liste de métriques
 
-- Error Tolerance 
-  
-  - Number of memory related errors: 
+- Error Tolerance
+
+  - Number of memory related errors:
     - Out of memory (RAM / Hard memory)
-      * Mesurer la mémoire utilisée à l'aide de fonction bash tel que df. 
+      * Mesurer la mémoire utilisée à l'aide de fonction bash tel que df.
       * Faisabilité: faisable.
-    - Segmentation error 
+    - Segmentation error
       * Recenser le nombre de crash de l'application liées au segmentation fault.
       * Faisabilité: faisable.
 
@@ -497,14 +497,14 @@ Le service supporte tout les systèmes Linux et Windows.
     * Donner la possibilité à l'utilisateur de signaler des données imprécises. Puis, tracer cette mesure.
     * Faisabilité : difficilement faisable. Peu d'utilisateurs
 
-- Efficiency 
-  
-  - Ressources efficiency: 
+- Efficiency
+
+  - Ressources efficiency:
     * Nombre de total de lignes des logs. Mesurer le nombre de lignes obtenus par les fichiers logs. Par exemple à la fonction bash wc ( wc -l )
     * Faisabilité de la solution: faisable.
-  
-  - Time efficiency: 
-    * Temps d'exécution d'une requête. Calcul du temps d'exécution d'une requête à l'aide d'indicateurs. 
+
+  - Time efficiency:
+    * Temps d'exécution d'une requête. Calcul du temps d'exécution d'une requête à l'aide d'indicateurs.
     * Faisabilité de la solution: faisable.
 - Task time :
   - Faisabilité de la procédure : faisable ;
@@ -512,11 +512,11 @@ Le service supporte tout les systèmes Linux et Windows.
 
 
 - Task effectiveness :
-  - Faisabilité de la procédure : mesure complexe, car il est difficile de quantifier l'efficacité de l'analyse de logs. 
+  - Faisabilité de la procédure : mesure complexe, car il est difficile de quantifier l'efficacité de l'analyse de logs.
 
 - Number of failures:
   - Faisabilité de la procédure : faisable ;
-  - Procédure de la mesure : on demande une analyse d'un grand nombre de logs (1000 par exemple) et on compare le nombre de logs bien analysés. On compare ensuite l'écart entre chaque solution, la meilleur solution étant celle qui a le plsu petit écart. 
+  - Procédure de la mesure : on demande une analyse d'un grand nombre de logs (1000 par exemple) et on compare le nombre de logs bien analysés. On compare ensuite l'écart entre chaque solution, la meilleur solution étant celle qui a le plsu petit écart.
 
 - Number of faults:
   - Faisabilité de la procédure : faisable mais en partie inclus dans la mesure des failures
