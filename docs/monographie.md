@@ -15,9 +15,9 @@ consigne: http://prodageo.insa-rouen.fr/casimono/sujetprojmd/consignes.html
  - Code de l'alliance : 2020A40Z
  - Liste des équipes
    - E16 - CASIment l'UML
-     - Larcher, théo (aerodynamic-saucepan)
-     - Billard, baptiste (BaptBillard)
-     - Lebeaud, simon (LeboSi)
+     - Larcher, Théo (aerodynamic-saucepan)
+     - Billard, Baptiste (BaptBillard)
+     - Lebeaud, Simon (LeboSi)
    - E04 - Equipe B
      - Lacroix, Daphné (dalacroix)
      - Lardière, Nina (nlardiere)
@@ -56,7 +56,7 @@ DevOps est la contraction des mots “Developpers” et “Ops”. La culture De
 C’est dans cette optique qu’ELK contribue au mouvement DevOps, en effet en tant que solution d’analyse de logs performante elle permet de mettre en place des systèmes de monitoring et d’alerting. Le monitoring et l’alerting permettent d’avoir une vue d’ensemble sur son infrastructure, de résoudre les problèmes qui surviennent et d’améliorer les performances.
 
 #### A quel type de question sur l’application stressée peut permettre de répondre une suite telle que ELK ?
-Dans un contexte de stress d’application, ELK permet de mesurer les performances de l’application et détecter les éventuelles failles lors de scenarios particuliers, à l’aide de syst_mes de monitoring et d’alerting.
+Dans un contexte de stress d’application, ELK permet de mesurer les performances de l’application et détecter les éventuelles failles lors de scenarios particuliers, à l’aide de systèmes de monitoring et d’alerting.
 
 #### Quelles solutions alternatives à ELK existe-t-il sur le marché (open-source, saas ou cots) ?
 Apache Solr constitue avec ELK les 2 principaux moteurs de recherche open source. Mais Elasticsearch est mieux adapté et plus fréquemment utilisé dans le cas d’utilisation d’analyse de journaux. Plusieurs solutions SaaS existent comme Algolia, Searchify ou Oracle Log Analytics.
@@ -95,7 +95,7 @@ Un fichier RRD est  fichier servant de base de données, notamment de données r
 
 ### A3. Bibliographie
 
-Anurag Srivastava et Douglas Miller, 24 octobre 2019, **Elasticsearch 7 Quick Start Guide: Get up and running with the distributed search and analytics capabilities of Elasticsearch**
+- Anurag Srivastava et Douglas Miller, 24 octobre 2019, **Elasticsearch 7 Quick Start Guide: Get up and running with the distributed search and analytics capabilities of Elasticsearch**
 > Sections :
 > - Use cases of ElastisStack
 > - Anatomy of an Analyzer
@@ -103,7 +103,7 @@ Anurag Srivastava et Douglas Miller, 24 octobre 2019, **Elasticsearch 7 Quick St
 
 *Critère de choix* : Guide exhaustif sur Elasticsearch.
 
-James Turnbull, 2014, **The Logstash Book**, Kindle edition
+- James Turnbull, 2014, **The Logstash Book**, Kindle edition
 
 > Sections :
 > - Add structured logging to your applications and parse your application logs
@@ -112,7 +112,7 @@ James Turnbull, 2014, **The Logstash Book**, Kindle edition
 
 *Critère de choix* : Guide exhaustif sur Logstash.
 
-Saurabh Chhajed, 2015, **Learning ELK Stack**, eBook
+- Saurabh Chhajed, 2015, **Learning ELK Stack**, eBook
 
 > Sections :
 > - Introduction to ELK Stack
@@ -137,7 +137,7 @@ Les projets **Lucene** et **Solr** sont fusionnés en 2011 : le développement e
 #### ElasticSearch
 Elasticsearch inc. est une entreprise centrée sur la recherche fondée par Steven Schuurman, Uri Boness et Simon Willnauer.
 
-L'entreprise est basée sur le succès de l'outil **Elasticsearch**, un logiciel open source, fonctionnant sur Lucene pour l'indexation et la recherche de données. Suite au succès d'**Elasticsearch** deux autres projets sont créés ; Logstash et Kibana. Logstash est un outil informatique de collecte, analyse et stockage de logs, c'est un outil d'ingestion open source. Il est généralement associé avec **Elasticsearch**, moteur de recherche distribué, et Kibana, interface d'Elasticsearch. En effet Kibana est une interface utilisateur permettant de visualiser les logs. Ces trois outils ; **Elasticsearch**, Kibana et Logstash forment la solution EKL.  L'entreprise met toute la puissance de la recherche au service de ses clients pour les aider à explorer et analyser leurs données, que ce soit le cours des actions, les flux twitter ou les logs Apache.
+L'entreprise est basée sur le succès de l'outil **Elasticsearch**, un logiciel open source, fonctionnant sur Lucene pour l'indexation et la recherche de données. Suite au succès d'**Elasticsearch** deux autres projets sont créés ; Logstash et Kibana. Logstash est un outil informatique de collecte, analyse et stockage de logs, c'est un outil d'ingestion open source. Il est généralement associé avec **Elasticsearch**, moteur de recherche distribué, et Kibana, interface d'Elasticsearch. En effet Kibana est une interface utilisateur permettant de visualiser les logs. Ces trois outils ; **Elasticsearch**, Kibana et Logstash forment la solution EKL.  L'entreprise met toute la puissance de la recherche au service de ses clients pour les aider à explorer et analyser leurs données, que ce soit le cours des actions, les flux Twitter ou les logs Apache.
 
 #### Algolia
 
@@ -484,7 +484,7 @@ Le service supporte tout les systèmes Linux et Windows.
 |Solution retenue|Équipe|
 |------------------|------|
 |Webalizer|E04 - Equipe B|
-|ELK - Kibana (natif)|E16 - CASIment l'UML|
+|Suite ELK (Logstash - Elasticsearch - Kibana)|E16 - CASIment l'UML|
 |Loki|E07 - Equipe C|
 |Solr|E08 - Équipe D|
 
@@ -523,7 +523,7 @@ Le service supporte tout les systèmes Linux et Windows.
 
 - Number of failures:
   - Faisabilité de la procédure : faisable ;
-  - Procédure de la mesure : on demande une analyse d'un grand nombre de logs (1000 par exemple) et on compare le nombre de logs bien analysés. On compare ensuite l'écart entre chaque solution, la meilleur solution étant celle qui a le plsu petit écart.
+  - Procédure de la mesure : on demande une analyse d'un grand nombre de logs (1000 par exemple) et on compare le nombre de logs bien analysés. On compare ensuite l'écart entre chaque solution, la meilleur solution étant celle qui a le plus petit écart.
 
 - Number of faults:
   - Faisabilité de la procédure : faisable mais en partie inclus dans la mesure des failures
@@ -535,7 +535,7 @@ Le service supporte tout les systèmes Linux et Windows.
 
 Le WBS permet de découper le projet en tâches afin de montrer comment réaliser les prototypes.
 
-![WBS](images/wbs-log.png)
+![WBS](images/wbs-log_2.png)
 
 ## Partie C
 
