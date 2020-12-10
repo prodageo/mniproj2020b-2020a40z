@@ -483,7 +483,7 @@ Le service supporte tout les systèmes Linux et Windows.
 
 |Solution retenue|Équipe|
 |------------------|------|
-|Webalizer|E04 - Equipe B|
+|Loggly|E04 - Equipe B|
 |Suite ELK (Logstash - Elasticsearch - Kibana)|E16 - CASIment l'UML|
 |Loki|E07 - Equipe C|
 |Solr|E08 - Équipe D|
