@@ -541,6 +541,15 @@ Le WBS permet de découper le projet en tâches afin de montrer comment réalise
 
 ### C1. Architecture solution W
 
+#### Équipe
+
+E04 - Equipe B
+ - Lacroix, Daphné (dalacroix)
+ - Lardière, Nina (nlardiere)
+ - Delaunay, Julien (jdelaunay)
+ 
+#### Description de l’architecture
+
 ### C2. Architecture solution X
 
 ### C3. Architecture solution Y
