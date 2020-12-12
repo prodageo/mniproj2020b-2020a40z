@@ -551,6 +551,8 @@ E04 - Equipe B
  
 #### Description de l’architecture
 
+![diagram_loggly](images/Diagram_Loggly.png)
+
 ### C2. Architecture solution X
 
 ### C3. Architecture solution Y
