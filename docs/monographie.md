@@ -382,6 +382,7 @@ AWStats est un logiciel open-source, développé par Laurent DESTAILLEUR, d’an
 * la provenance : moteur de recherche, sites, pays…
 * les configurations matérielle des visiteurs : taille d’écran, système d’exploitation, navigateur…
 * les occupation du serveur
+
 C’est un peu ce que propose Google Analytics.
 Il est implémenté en Perl. Ça dernière mise à jour date de janvier 2018.
 Il peut gérer des serveurs web Apache 1.3.x et 2.x, WebStar, Oracle 9iAS, WebLogic, Tomcat et les serveur FTP ProFTPd, vsFTPd.
