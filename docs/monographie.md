@@ -555,6 +555,12 @@ E04 - Equipe B
 
 ### C2. Architecture solution X
 
+E07 - Equipe C
+  - Benkassou, Ali (khazit)
+  - Leclerc, Tanguy (LeclercTanguy)
+  - Marie, Joran (iamodog)
+
+![Diagramme_deploiement_Loki](images/Diagramme_deploiement.svg)
 ### C3. Architecture solution Y
 
 ### C4. Architecture solution Z
