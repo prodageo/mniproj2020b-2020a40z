@@ -548,7 +548,7 @@ E04 - Equipe B
  - Lacroix, Daphné (dalacroix)
  - Lardière, Nina (nlardiere)
  - Delaunay, Julien (jdelaunay)
- 
+
 #### Description de l’architecture
 
 ![diagram_loggly](images/Diagram_Loggly.png)
@@ -561,6 +561,18 @@ E07 - Equipe C
   - Marie, Joran (iamodog)
 
 ![Diagramme_deploiement_Loki](images/Diagramme_deploiement.svg)
+
 ### C3. Architecture solution Y
+
+#### Équipe
+
+E16 - Equipe CASIment l’UML
+ - Larcher, Théo (aerodynamic-saucepan)
+ - Billard, Baptiste (BaptBillard)
+ - Lebeaud, Simon (LeboSi)
+
+#### Description de l’architecture
+
+![E16_Jalon_C.svg](images/E16_Jalon_C.svg)
 
 ### C4. Architecture solution Z
