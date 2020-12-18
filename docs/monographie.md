@@ -560,7 +560,7 @@ E07 - Equipe C
   - Leclerc, Tanguy (LeclercTanguy)
   - Marie, Joran (iamodog)
 
-![Diagramme_deploiement_Loki](images/Diagramme_deploiement.svg)
+![Diagramme_deploiement_Loki](images/Diagramme_deploiement.png)
 
 ### C3. Architecture solution Y
 
@@ -573,7 +573,7 @@ E16 - Equipe CASIment l’UML
 
 #### Description de l’architecture
 
-![E16_Jalon_C.svg](images/E16_Jalon_C.svg)
+![E16_Jalon_C.svg](images/E16_Jalon_C.png)
 
 ### C4. Architecture solution Z
 
@@ -586,4 +586,4 @@ E08 - Équipe D
 
 #### Description de l'architecture
 
-![E08_Diagramme_Solr.svg](images/Diagramme_deploiement_E08.svg)
+![E08_Diagramme_Solr.svg](images/Diagramme_deploiement_E08.png)
