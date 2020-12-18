@@ -576,3 +576,14 @@ E16 - Equipe CASIment l’UML
 ![E16_Jalon_C.svg](images/E16_Jalon_C.svg)
 
 ### C4. Architecture solution Z
+
+#### Équipe
+
+E08 - Équipe D
+  - DE LAROQUE Florent
+  - MARIÉ Léo
+  - TOUTAIN Aurélien
+
+#### Description de l'architecture
+
+![E08_Diagramme_Solr.svg](images/Diagramme_deploiement_E08.svg)
