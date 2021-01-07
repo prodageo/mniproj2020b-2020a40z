@@ -560,6 +560,8 @@ E07 - Equipe C
   - Leclerc, Tanguy (LeclercTanguy)
   - Marie, Joran (iamodog)
 
+#### Description de l'architecture
+
 ![Diagramme_deploiement_Loki](images/Diagramme_deploiement.png)
 
 ### C3. Architecture solution Y
