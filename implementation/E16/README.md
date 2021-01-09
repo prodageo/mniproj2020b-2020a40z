@@ -25,6 +25,8 @@ Le site jouet est atteignable sur `localhost` remplace la page d'accueil par dé
 
 - Les fichiers de configuration des différents paquets ainsi que le site jouet utilisé pour le projet sont disponibles dans le dossier `root_vagrant` de ce dépôt. L'architecture de dossiers est conservée pour indiquer où copier les fichiers.
 
+- Le fichier de logs utilisé pour analyse par la suite ELK est `access.log` et est à placer dans la VM dans `/home/vagrant/casi_webapp/`. Pour simuler une arrivée de log par interaction d'un site web quelconque il suffit d'ajouter de l'information dans le fichier pendant que la suite ELK tourne.
+
 _**NOTE** : l'intérêt du paquet `apache2-utils` est de pouvoir définir un couple ID-password pour pouvoir accéder à l'application Kibana. Cette étape doit être reproduite en lançant la commande `sudo htpasswd -c /etc/nginx/htpasswd.users tuto` afin de créer un fichier `/etc/nginx/htpasswd.users` référencé dans `/etc/nginx/sites-available/kibana`. L'identifiant sera alors 'tuto' et le mot de passe celui choisi par l'utilisateur._
 
 ## Vagrant
