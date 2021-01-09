@@ -51,15 +51,13 @@ config.ssh.forward_x11 = true
 	- vérifier que les logs sont correctement parsés en demandant de lister des index transformés de quelques logs **sans les enregistrer** :
 
 	```bash
-	sudo /usr/share/logstash/bin/logstash --debug --path.settings /etc/logstash/ -f\
-	 /etc/logstash/conf.d/01-local-dev.conf -t
+	sudo /usr/share/logstash/bin/logstash --debug --path.settings /etc/logstash/ -f /etc/logstash/conf.d/01-local-dev.conf -t
 	```
 
 	- créer les index transformés à partir des logs en remplissant le fichier de log après avoir lancé cette commande  (l'argument `--debug` est optionnel et ralentit le processus) :
 
 	```bash
-	sudo /usr/share/logstash/bin/logstash --debug --path.settings /etc/logstash/ -f\
-	 /etc/logstash/conf.d/01-local-dev.conf
+	sudo /usr/share/logstash/bin/logstash --debug --path.settings /etc/logstash/ -f /etc/logstash/conf.d/01-local-dev.conf
 	```
 
 - Une fois Kibana lancé, rajouter des données dans le fichier de log devrait avoir pour conséquence de mettre à jour les visualiseurs des dashboards mais nous ne l'avons pas constaté dans nos tests. Notre hypothèse est que les index ne sont pas toujours re-parsés par elasticsearch à chaque mise à jour du fichier surveillé (renseigné dans `/etc/logstash/conf.d/01-local-dev.conf` dans le champ `file` de `input`).
