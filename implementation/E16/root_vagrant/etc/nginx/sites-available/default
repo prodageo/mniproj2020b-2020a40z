@@ -1,0 +1,18 @@
+server {
+	listen 80 default_server;
+	listen [::]:80 default_server;
+
+	root /home/vagrant/casi_webapp;
+	access_log /home/vagrant/casi_webapp/logs/access_log;
+	error_log /home/vagrant/casi_webapp/logs/error_log;
+	index index.html index.htm index.nginx-debian.html;
+	
+	server_name _;
+
+	location / {
+		# First attempt to serve request as file, then
+		# as directory, then fall back to displaying a 404.
+		try_files $uri $uri/ =404;
+	}
+
+}
