@@ -9,7 +9,7 @@
 - [GrokDebugger](https://grokdebug.herokuapp.com/?#) pour vérifier que les règles de parsing issus du point précédent sont correctes et adaptées aux lignes de logs fournies.
 
 # Indications personnelles
-_NOTE : dans cette section nous référerons à l'environnement de travail Vagrant par 'la VM', mais il faut garder à l'esprit que Vagrant est en réalité une sur-couche pour la création et la configuration des environnements de développement virtuel. Notamment, il est possible d'utiliser le logiciel de gestion de VM de notre choix; dans notre cas nous avons choisi VirtualBox._
+_**NOTE** : dans cette section nous référerons à l'environnement de travail Vagrant par 'la VM', mais il faut garder à l'esprit que Vagrant est en réalité une sur-couche pour la création et la configuration des environnements de développement virtuel. Notamment, il est possible d'utiliser le logiciel de gestion de VM de notre choix; dans notre cas nous avons choisi VirtualBox._
 
 Le site jouet est atteignable sur `localhost` remplace la page d'accueil par défaut de nginx, et Kibana est atteignable sur `stats.localhost`.
 
@@ -24,6 +24,8 @@ Le site jouet est atteignable sur `localhost` remplace la page d'accueil par dé
 	- `nano` (ou tout autre éditeur de texte)
 
 - Les fichiers de configuration des différents paquets ainsi que le site jouet utilisé pour le projet sont disponibles dans le dossier `root_vagrant` de ce dépôt. L'architecture de dossiers est conservée pour indiquer où copier les fichiers.
+
+_**NOTE** : l'intérêt du paquet `apache2-utils` est de pouvoir définir un couple ID-password pour pouvoir accéder à l'application Kibana. Cette étape doit être reproduite en lançant la commande `sudo htpasswd -c /etc/nginx/htpasswd.users tuto` afin de créer un fichier `/etc/nginx/htpasswd.users` référencé dans `/etc/nginx/sites-available/kibana`. L'identifiant sera alors 'tuto' et le mot de passe celui choisi par l'utilisateur._
 
 ## Vagrant
 - Les commandes de manipulation de Vagrant se lancent via terminal à l'emplacement du fichier de configuration `Vagrantfile`. Commandes utiles :
